@@ -1,23 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import ProductComponent from './components/ProductComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProductComponent Name={'NikeCasuals'} Price={4600} Photo={'https://media.istockphoto.com/id/1451567024/photo/picture-of-blue-canvas-sneaker.jpg?s=1024x1024&w=is&k=20&c=neNv4QX1AbfutdZzXuKwPS6QeV6U5CMt46_EF1G5m3Q='} />
     </div>
   );
 }
